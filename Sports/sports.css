@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, sans-serif; */
+}
+header {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: #8d7b7b;
+    color: black;
+}
+
+
+body {
+    background-color: #f4e2c1;
+    color: #333;
+}
+
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 100%; /* Change width to 100% to make it responsive */
+    padding: 12px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 18px; /* Slightly reduce font size for better fit */
+    border-radius: 5px;
+    background-color: #e6c993; /* Lighten the background color */
+}
+
+.container {
+    max-width: 400px; /* Change max-width to 400px for better responsiveness */
+    margin: 50px auto; /* Increase top margin for better spacing */
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #e6c993; /* Lighten the background color */
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 28px; /* Increase font size for header */
+    margin-bottom: 20px; /* Add margin at the bottom of the header */
+}
+
+.container button {
+    display: block;
+    width: 100%;
+    margin-top: 20px; /* Add margin at the top of the button for spacing */
+    font-size: 18px;
+    font-weight: bold; /* Add font-weight to make the button bold */
+    padding: 12px;
+    border: 2px solid #d8bfbf;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #87563d; /* Darken the background color on hover */
+}
